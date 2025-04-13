@@ -1,3 +1,5 @@
+getgenv().DarvkKey = ''
+
 getgenv().accessoryCollision = false  -- Renamed from canCollide
 getgenv().shoeCollision = false     -- Added separate shoe collision toggle
 getgenv().anchored = false
@@ -23,7 +25,7 @@ getgenv().showFace = true -- Hides your face
 getgenv().removeAllItems = true -- Global variable using getgenv to toggle removing all items
 getgenv().keepOriginalFace = true -- Keeps original face instead of replacing it with the faceId you chose
 
-getgenv().scaleMode = 'Test'  -- Initialize scale mode first
+getgenv().scaleMode = 'Default'  -- Initialize scale mode first
 getgenv().scalePresets = {
     ['Default'] = {
         autoScale = false,
@@ -46,3 +48,5 @@ getgenv().scalePresets = {
         }
     }
 }
+
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Cxltures/DarvkLoader/refs/heads/main/DarvkLoader%20(Premium)')))()
