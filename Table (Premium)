@@ -23,6 +23,7 @@ getgenv().settings = {
         mode = 'ItemsLoader',       -- "OutfitLoader", "ItemsLoader", "CombineBoth"
         targetPlayer = '',-- Username to morph into (for OutfitLoader/CombineBoth)
         removeAllItems = true,      -- Clears existing character items
+        preserveClassicClothing = true, -- NEW: When true, keeps Shirt, Pants, and BodyColors when removeAllItems is true
         combineAccessories = false   -- Adds accessories to existing outfit instead of replacing
     },
     
